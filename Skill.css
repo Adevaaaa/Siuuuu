@@ -1,0 +1,253 @@
+/* Jumbotron */
+.jumbotron{
+    background-image: url(Jumbo\ 2.jpg);
+    height: 610px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -140px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background-color: rgb(34, 34, 34) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.profilimg{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+/* Jumbotron End */
+
+/* biodata */
+    .biodata{
+        background-color: rgb(34, 34, 34);
+        color: white;
+        padding-top:25px ;
+        margin: -20px;
+    }
+    .Tas{
+        width: 100%;
+        margin-left:auto ;
+        margin-right: auto;
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+    .biodata h5{
+        font-size: 25px;
+    }
+    .biodata p{
+        opacity: 0.7;
+        padding: -15px;
+        margin-block-end: 0;
+    }
+    .biodata .kiri{
+        margin-left: 0;
+    }
+    .biodata .kanan{
+        text-align: right;
+    }
+    .biodata .kiri p{
+        margin-left: 2px;
+    }
+    .biodata .kanan p{
+        margin-right: -3px;
+    }
+    .biodata hr{
+        opacity: 0.3;
+    }
+/* Biodata End */
+
+/* SkillBar */
+.tassk{
+  height: 100%;
+  background-color: rgb(34, 34, 34);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 500px;
+  padding-right:500px;
+}
+.progress-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f7f7f8;
+  margin: 0 0 10px;
+}
+.progress{
+  height: 30px;
+  background: #fff;
+  border-top: 5px solid #1c2647;
+  border-bottom: 5px solid #1c2647;
+  border-radius: 0;
+  margin-bottom: 25px;
+  overflow: visible;
+  position: relative;
+  width: 520px;
+}
+.progress:before,
+.progress:after{
+  content: "";
+  width: 5px;
+  background: #1c2647;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+}
+.progress:after{
+  left: auto;
+  right: -5px;
+}
+.progress .progress-bar{
+  border: none;
+  box-shadow: none;
+  -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+  animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+}
+@-webkit-keyframes animate-positive{
+  0%{ width: 0; }
+}
+@keyframes animate-positive{
+  0%{ width: 0; }
+}
+/* SkillBar End */
+
+/* Contact */
+.contact {
+	padding-top: 5px;
+  padding-bottom: 50px;
+  padding-left: 350px;
+  padding-right:350px ;
+}
+.contact hr {
+	width: 820px;
+	border: 1px solid white;
+}
+.contact .card-body ul {
+	margin-left: -31px;
+}
+.contact .card-body ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 15px;
+	margin-top: 3px;
+}
+.contact .btn {
+	margin-top: 15px;
+}
+/* Contact End */
+
+/* Footer */
+.row{
+    font:white;
+  }
+  .site-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  }
+  .social-icons
+  {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.twitter:hover
+  {
+    background-color:#00aced
+  }
+  .social-icons a.instagram:hover
+  {
+    background-color:#007bb6
+  }
+  .social-icons a.youtube:hover
+  {
+    background-color:#ea4c89
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600
+    }
+  }
+  /* Footer */
